@@ -1,3 +1,32 @@
-p{
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     
+  }
+  
+  
+  .branch {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .social {
+    grid-column: 2;
+    grid-row: 1;
+    }
+.about{
+    grid-column: 3;
+    grid-row: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
